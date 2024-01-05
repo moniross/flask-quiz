@@ -8,7 +8,7 @@ app.secret_key = 'your_secret_key'
 from questions import questions
 
 # Add a constant for the quiz duration (in seconds)
-QUIZ_DURATION_SECONDS = 300  # Adjust the duration as needed
+QUIZ_DURATION_SECONDS = 3000  # Adjust the duration as needed
 
 @app.route('/')
 def index():
